@@ -10,3 +10,8 @@ If you have the build-essentials installed then you can install the kernel besid
 ```sh
 $ sudo makepkg -i
 ```
+
+## Issues
+
+- there are no compatible DKMS modules for virtualbox at the moment
+- I haven't updated the kernel config file so you get asked about some new config options, normally you can use the default answer for everything
