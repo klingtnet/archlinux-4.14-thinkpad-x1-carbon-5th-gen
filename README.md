@@ -1,5 +1,11 @@
 # Linux 4.14 for Lenovo X1 Carbon 5th Gen with Touchpad Patch
 
+**UPDATE**
+
+This is obsolete since the Elantech touchpad can be used without this patch in Kernel 4.14 by setting the following kernel parameter `psmouse.synaptics_intertouch=1`.
+
+---
+
 This is a fork of https://aur.archlinux.org/pkgbase/linux-tp-x1-carbon-5th/ which does not get updated anymore.
 Unfortunately, the Elantech touchpad is still not supported in the latest kernel (4.14), thus a small patch has still to be applied.
 
